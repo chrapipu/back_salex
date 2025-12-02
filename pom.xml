@@ -21,7 +21,9 @@
 
     <build>
         <plugins>
-            <!-- SonarQube Maven Plugin -->
+           <properties>
+  <sonar.organization>chrapipu</sonar.organization>
+</properties>
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
